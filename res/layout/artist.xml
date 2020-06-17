@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listbgbear"
+    android:orientation="vertical" >
+	<LinearLayout android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:orientation="vertical">
+	        <ListView
+        android:id="@+id/artistListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000" >
+
+    </ListView>
+    
+	</LinearLayout>
+<!-- 
+	    <LinearLayout android:id="@+id/miaoshu"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="400dp">
+                <TextView android:id="@+id/tv1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="音乐"
+                />
+                <TextView android:id="@+id/tv2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="艺术家"
+                />
+                <TextView android:id="@+id/tv3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="专辑"
+                />
+                <TextView android:id="@+id/tv4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="最近播放"
+                />
+            </LinearLayout>
+    -->
+</LinearLayout>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky" 
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"    
+        android:paddingTop="15dp"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView android:id="@+id/loginbear"
+	    android:layout_width="60dp"
+	    android:layout_height="60dp"
+	    android:src="@drawable/loginbear"
+	    android:layout_gravity="center_horizontal"
+	    android:paddingTop="20dp"
+	    android:background="@drawable/shape"
+	    />
+        </LinearLayout>
+        	
+       <LinearLayout android:layout_width="wrap_content"
+           android:layout_height="60dp"
+           android:orientation="vertical"
+           >
+           <TextView android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="idddd"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"/>
+           <LinearLayout android:layout_width="wrap_content"
+           android:layout_height="60dp">
+               <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="性别："
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"/>
+            <TextView android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+ 
+            android:text="所在地："
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+           />
+               <TextView android:id="@+id/cite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"/>
+          </LinearLayout>
+          </LinearLayout>
+          
+           
+        
+         
+          
+     
+    </LinearLayout>
+ <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button android:id="@+id/mworld"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="50dp"
+   		    android:text="进入音乐世界"
+   		    android:textColor="#FFFFFF"
+   		    android:textSize="25dp"
+   		    android:gravity="left"
+   		    />
+    </LinearLayout>
+  
+   		<LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+        <Button android:id="@+id/resignup"
+   		    android:layout_width="172dp"
+   		    android:layout_height="50dp"
+   		    android:text="注册账号"
+   		    android:textColor="#FFFFFF"
+   		    android:textSize="25dp"
+   		    android:gravity="left"
+   		    />
+    </LinearLayout>
+   		<Button android:id="@+id/logout"
+   		    android:layout_width="172dp"
+   		    android:layout_height="50dp"
+   		    android:text="退出登陆"
+   		    android:textColor="#FFFFFF"
+   		    android:textSize="25dp"
+   		    android:gravity="left"   		  
+   		    />
+
+
+</LinearLayout>

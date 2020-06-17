@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp" >
+            <!--  
+            <LinearLayout android:id="lmusic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:id="ceshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yinyue"/>
+            </LinearLayout>
+              <LinearLayout android:id="larts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:id="ceshi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yiren"/>
+
+            </LinearLayout>
+            -->
+            
+            "
+        </FrameLayout>
+                <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+
+</TabHost>
